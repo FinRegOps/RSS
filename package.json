@@ -1,0 +1,12 @@
+{
+  "name": "regulatory-news-feed",
+  "version": "1.0.0",
+  "description": "Automated regulatory news feed from AFM, DNB, EBA, ESMA",
+  "main": "fetch-feeds.js",
+  "scripts": {
+    "fetch": "node fetch-feeds.js"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
